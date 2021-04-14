@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta> 
+        <telefon>0774567123</telefon> 
+        <skills>matematica</skills> 
+        <limbi_straine>engleza,franceza,chineza</limbi_straine>
+        <adresa> 
+            <strada>Ion Tiriac</strada> 
+            <numar>5</numar> 
+            <localitate>Iasi</localitate> 
+            <judet>Iasi</judet> 
+            <tara>Romania</tara>
+        </adresa>
+    </persoana> 
+    <persoana id="2"> 
+        <nume>Marcel</nume> 
+        <prenume>Popa</prenume> 
+        <varsta>45</varsta> 
+        <telefon>0741536845</telefon> 
+        <skills>informatica</skills> 
+        <limbi_straine>engleza,germana,greaca</limbi_straine>
+        <adresa> 
+            <strada>Mihai Eminescu</strada> 
+            <numar>7</numar> 
+            <localitate>Suceava</localitate> 
+            <judet>Suceava</judet> 
+            <tara>Romania</tara>
+        </adresa>
+    </persoana> 
+    <persoana id="3"> 
+        <nume>Raul</nume> 
+        <prenume>Miron</prenume> 
+        <varsta>21</varsta> 
+        <telefon>0735569423</telefon> 
+        <skills>fizica</skills> 
+        <limbi_straine>engleza,franceza,japoneza,spaniola</limbi_straine>
+        <adresa> 
+            <strada>Gica Hagi</strada> 
+            <numar>23</numar> 
+            <localitate>Constanta</localitate> 
+            <judet>Constanta</judet> 
+            <tara>Romania</tara>
+        </adresa>
+    </persoana> 
+    <persoana id="4"> 
+        <nume>Ioana</nume> 
+        <prenume>Dumitru</prenume> 
+        <varsta>69</varsta> 
+        <telefon>0759367490</telefon> 
+        <skills>biologie</skills> 
+        <limbi_straine>engleza,franceza,italiana</limbi_straine>
+        <adresa> 
+            <strada>Ion Creanga</strada> 
+            <numar>43</numar> 
+            <localitate>Brasov</localitate> 
+            <judet>Brasov</judet> 
+            <tara>Romania</tara>
+        </adresa>
+    </persoana> 
+    <persoana id="5"> 
+        <nume>Mirel</nume> 
+        <prenume>Radoi</prenume> 
+        <varsta>37</varsta> 
+        <telefon>0728537123</telefon> 
+        <skills>chimie</skills> 
+        <limbi_straine>engleza,franceza,maghiara,rusa</limbi_straine>
+        <adresa> 
+            <strada>Al. Ioan Cuza</strada> 
+            <numar>12</numar> 
+            <localitate>Barlad</localitate> 
+            <judet>Vaslui</judet> 
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+</persoane>

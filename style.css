@@ -1,0 +1,58 @@
+.logo{ 
+  float: left;
+  width: 100px;
+  height: 100px;
+} 
+
+h1{  
+  position:relative;
+  color:rgb(122, 48, 172); 
+  top: 18px;
+  left: 10px; 
+  text-shadow: 2px 2px black; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+body{
+    background:#1b1b2b;
+    padding:75px;
+    text-align:left;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  
+  .buton{
+    color:#999;
+    background:rgba(0, 0, 0, 0.5);
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;  
+   
+    
+    
+  }
+  
+  .buton:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px 20px; ;
+    color:#1b1b1b;
+  }
+  
+
+
+fieldset{ 
+border:2px solid rgb(0, 0, 0);
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	 
+} 
+legend 
+{ 
+    margin-bottom: 0px; 
+    margin-left: 16px;
+}

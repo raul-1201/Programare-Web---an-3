@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="ro-Ro">  
+    <head> 
+        <title>Stiri Sport</title> 
+        <meta charset="utf-8"/> 
+        <link rel="stylesheet" href="stylev2.css" type='text/css'>
+    </head> 
+    <body>  
+        
+        <img src="1200px-Football_(soccer_ball).svg.png" width="200" height="200" alt="logo" class="logo">
+        <h1>Stiri Sport</h1>  
+            <nav class="site-nav">
+                <a href="index.html" class="buton">Acasa</a> 
+                <a href="inregistreaza.html" class="buton">inregistreaza</a> 
+                <a href="video.html" class="buton">Video</a>
+                <a href="despre_html.html" class="buton">Despre</a>  
+                <a href="desen.html" class="buton">Desen</a> 
+                <a href="invat_js.html" class="buton">Invat JS</a> 
+                <a href="cumparaturi.html" class="buton">Cumparaturi</a>
+                
+            </nav> 
+            <div class="text-side"> 
+                
+            
+        <fieldset> 
+            <legend>Informatii generale:</legend>
+            <label for="username">Nume utilizator:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="pass">Parola:</label>
+            <input type="password" id="pass" name="pass"><br><br> 
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume"><br><br> 
+            <label for="prenume">Prenume:</label>
+            <input type="text" id="prenume" name="prenume"><br><br>
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email"><br><br> 
+            <label for="telefon">Telefon:</label>
+            <input type="tel" id="telefon" name="telefon"><br><br>  
+         </fieldset> 
+        <fieldset> 
+            <legend>Informatii personale:</legend> 
+            <label for="sex">Sexul:</label>
+            <select id="sex" name="sex" size="3" multiple> 
+                <option value="M">Masculin</option> 
+                <option value="F">Feminin</option> 
+                <option value="N">Niciuna dintre variante</option> 
+            </select> <br><br>
+            <label for="mancare">Mancarea preferata:</label> 
+            <datalist id="mancare">
+                 <option value="Pizza">
+                 <option value="Cartofi prajiti">
+                 <option value="Paste Carbonara">
+                 <option value="Fasole cu ciolan">
+                 <option value="Pateu">
+            </datalist> <br><br>
+            <label for="data_n">Data Nasterii:</label> 
+            <input type="date" id="data_n" name="data_n"><br><br> 
+            <label for="ora_n">Ora Nasterii:</label> 
+            <input type="time" id="ora_n" name="ora_n"><br><br> 
+            <label for="varsta">Varsta:</label> 
+            <input type="range" id="varsta" name="varsta" min="10" max="100" step="1"><br><br> 
+            <label for="pg_pers">Adresa paginii personale:</label> 
+            <input type="url" id="pg_pers" name="pg_pers"> <br><br>
+            <label for="desc">Descriere:</label> 
+            <textarea id ="desc" name="desc"></textarea><br><br> 
+            <button type="button">Inregistreaza</button>
+        </fieldset>
+    </div>
+    </body> 
+</html>
